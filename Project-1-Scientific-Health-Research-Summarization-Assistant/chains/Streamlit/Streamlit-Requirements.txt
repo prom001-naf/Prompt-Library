@@ -1,0 +1,10 @@
+Streamlit Requirements
+
+streamlit
+python
+jupyterhub
+conda
+openai
+PyPDF2
+Claude
+Gemini

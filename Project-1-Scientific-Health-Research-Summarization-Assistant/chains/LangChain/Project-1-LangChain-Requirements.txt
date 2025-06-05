@@ -1,0 +1,6 @@
+Project-1-LangChain-Requirements
+
+langchain
+openai
+PyPDF2
+# **Remember this code only works if your API KEY hasn't exceeded the quota or the amount of tokens for the billing cycle where you would need to put in at least 15$ for the website to work. As well based on your Open API Key type ~ Standard Free Users Suggested to Use: gpt-3.5-turbo, Premium Users Suggested to Use: gpt-4**

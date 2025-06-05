@@ -1,0 +1,28 @@
+Project 1: Scientific Health Research Summarization Assistant Chain of Thought (COT) VS Plain Outputs
+
+Plain Summary: "Refer to Summarization Outputs Folder" We will only be comparing the plain summary to the COT summary in this experiment.
+
+Chain of Thought (COT) Prompt Used For All Models: "Based on the original paper for OCD Through Genetics. List the key data findings in terms numerical data. After retrieving the findings explain why they matter. However, all this should be done in a 5 sentence summary"
+
+Chain of Thought (COT) Outputs:
+
+    GPT-4:
+
+        "The study analyzed genetic data from 53,660 individuals with OCD and over 2.2 million controls, identifying 30 genome-wide significant loci associated with OCD. Researchers found that 11,482 common genetic variants account for 90% of the SNP-based heritability, which was estimated at 6.7% in the general population and up to 16.4% in clinical cohorts. They pinpointed 25 likely risk genes, many active in brain regions like the cortex, hippocampus, and striatum. Strong genetic correlations were observed between OCD and anxiety, depression, anorexia nervosa, and other psychiatric conditions. These findings matter because they offer the clearest genetic map of OCD to date, opening new paths for diagnosis, treatment, and understanding how OCD connects biologically to other mental health conditions."
+
+    Claude-Sonnet-4:
+
+        "Based on this major OCD genetics study, here are the key numerical findings:
+        Key Data Findings:
+
+        53,660 OCD cases and 2,044,417 controls were analyzed, identifying 30 independent genome-wide significant genetic loci
+        249 potential genes were associated with OCD, with 25 identified as most likely causal candidates
+        Common genetic variants explain 6.7% of OCD risk variation, with approximately 11,500 genetic variants accounting for 90% of OCD's genetic heritability
+        OCD showed significant genetic correlations with 65 of 112 tested traits, with the strongest correlations being anxiety (0.70), depression (0.60), anorexia nervosa (0.52), and Tourette syndrome (0.47)
+
+        Why This Matters:
+        This represents a massive breakthrough in understanding OCD's biological basis, as it's the largest OCD genetic study to date with a 20-fold increase in cases compared to previous studies. The identification of specific genes like CTNND1, WDR6, and DALRD3 provides concrete molecular targets for developing new treatments, while the discovery that OCD shares substantial genetic overlap with anxiety, depression, and eating disorders explains why these conditions so frequently occur together in patients. The finding that thousands of genetic variants contribute small effects confirms OCD is highly polygenic, meaning successful treatments will likely need to target multiple biological pathways rather than single genes. Most importantly, these genetic discoveries are already pointing toward brain circuits involving the frontal cortex and striatum that have long been suspected in OCD, providing a roadmap for both understanding the disorder's neurobiology and developing more effective therapies."
+
+    Gemini-Pro-2.5:
+
+        "A massive genome-wide meta-analysis of 53,660 OCD cases and 2,044,417 controls identified 30 independent, genome-wide significant loci associated with the disorder. Gene-based approaches pinpointed 249 potential effector genes, with 25 classified as most likely causal, and estimated that ~11,500 genetic variants explain 90% of OCD's SNP-based heritability. Common SNPs accounted for 6.7% of OCD risk variance, with OCD genetic risk shared with 65 of 112 other phenotypes, showing strong positive correlations with anxiety (rg=0.70) and depression (rg=0.60). These specific numbers vastly expand the known genetic architecture of OCD, highlighting its polygenic nature and providing concrete targets for understanding its biological mechanisms. Ultimately, these quantitative insights pave the way for developing more targeted treatments by revealing the scale of genetic influence and its overlap with related conditions."
