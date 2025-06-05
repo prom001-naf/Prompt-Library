@@ -22,6 +22,7 @@ This project was made possible through the use of several open-source tools, API
 This tool is designed to summarize content from scientific research articles. Users are encouraged to upload content from reputable, openly accessible sources such as:
 - **[PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/)**
 - **[arXiv](https://arxiv.org/)**
+- **[Genes for Good](https://genesforgood.org/)**
 - Peer-reviewed journal articles (e.g., *The Lancet*, *Nature Medicine*, *JAMA*) with proper rights for reuse
 
 *Please ensure that any uploaded material is either publicly available or used in compliance with copyright and fair-use principles.*
